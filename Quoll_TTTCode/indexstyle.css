@@ -1,0 +1,400 @@
+body{
+	overflow : hidden;
+}
+
+#gameContainer{
+	width : 98.7%;
+	height : 91%;
+	border-style : solid;
+	border-width : 5px;
+	border-color: white;
+}
+
+#menuBar {
+	height : 50px;
+	width : 100%;
+	background-color : #B1C9CB;
+	/*background: linear-gradient(#B1C9CB, white);*/
+}
+
+
+#playerBoard {
+	height : 100%;
+	width : 68%;
+	float : left;
+	margin-top : 5px;
+}
+
+#sideBar{
+	overflow-y : scroll;
+	height : 100%;
+	width : 31.2%;
+	float : right;
+	margin-top : 5px;
+	overflow : scrollable;
+}
+
+#gameTypeBanner{
+	height : 50px;
+	width : 100%;
+	background-color : #B1C9CB;
+	margin-top : 10px;
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size: 28pt;
+	color : #638489;
+	text-indent : 10px;
+	line-height : 50px;
+	text-align : center;
+	text-transform : uppercase;
+}
+
+#player1Banner{
+	height : 100px;
+	width : 49.5%;
+	float : left;
+	background-color: #D3D3D3;
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+
+#player1name{
+	height : 60px;
+	line-height : 60px;
+	text-indent : 0px;
+	text-transform : uppercase; 
+	color: #294C50;	
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size : 30pt;
+}
+
+#player1stats{
+	height : 35px;
+	margin-top : 0px;
+	text-indent : 0px;
+	color: #294C50;	
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size : 14pt;
+	text-align : justify;
+	text-justify : inter-word;
+}
+
+#player1statsPageName{
+	text-align : center;
+	text-transform : uppercase;
+	color: #294C50;	
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size : 30pt;
+}
+
+#player1statsPage{
+	height : 210px;
+	width : 140px;
+	float : left;
+	margin-left : 70px;
+	margin-top : 0px;
+	text-align : right;
+	color: #294C50;	
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size : 14pt;
+}
+
+#player1statsPage2{
+	height : 210px;
+	width : 100px;
+	float : left;
+	margin-right : 50px;
+	margin-top : 0px;
+	text-align : right;
+	color: #294C50;	
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size : 14pt;
+}
+
+#player1statsPageRank{
+	margin-top : 0px;
+	height: 210px;
+	width : 210px;
+	float : right;
+	color: #294C50;	
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size : 24pt;
+}
+
+#player2Banner{
+	height : 100px;
+	width : 49.5%;
+	float : right;
+	background-color: #9B9B9B;
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+
+#player2name{
+	height : 60px;
+	line-height : 60px;
+	/*text-indent : 100px;*/
+	text-transform : uppercase; 
+	color: #294C50;	
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size : 30pt;
+}
+
+#player2stats{
+	height : 35px;
+	margin-top : 0px;
+	/*text-indent : 103px;*/
+	color: #294C50;	
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size : 14pt;
+	text-align : justify;
+	text-align-last : center;
+	text-justify : inter-word;
+}
+
+#playerBanners{
+	clear : both;
+}
+
+#player1scoreBanner{
+	float : left;
+	clear : both;
+	height : 50px;
+	width : 50%;
+	background-color : #B1C9CB;
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size: 30pt;
+	color : #638489;
+	line-height : 50px;
+	text-align : center;
+	text-transform : uppercase;
+}
+
+#searchFriend{
+	width : 100%;
+}
+
+#player2scoreBanner{
+	float : left;
+	height : 50px;
+	width : 50%;
+	background-color : #B1C9CB;
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size: 30pt;
+	color : #638489;
+	line-height : 50px;
+	text-align : center;
+	text-transform : uppercase;
+}
+
+#friendsBanner{
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size: 19pt;
+	color : #638489;
+	text-indent : 10px;
+	height : 50px;
+	line-height : 50px;
+	width : 100%;
+	background-color : #B1C9CB;
+	margin-top : 10px;
+	margin-bottom : 10px;
+	
+}
+
+#leaderboardBanner{	
+	font-family : Verdana, serif;
+	font-weight : bold;
+	font-size: 19pt;
+	color : #638489;
+	text-indent : 10px;
+	height : 50px;
+	line-height : 50px;
+	width : 100%;
+	background-color : #B1C9CB;
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+
+#friendsList{
+	margin-top : -30px;
+}
+
+#friendsList > div{
+	height : 25px; 
+	text-transform : uppercase; 
+	text-indent : 10px; 
+	font-weight : bold;
+	color : #294C50;
+	font-size : 13pt;
+	font-family : Verdana, serif; 
+	line-height : 25px; 
+	vertical-align : middle; 
+	margin-top : 5px
+}
+
+#leaderboard > div{
+	height : 25px; 
+	text-transform : uppercase; 
+	text-indent : 10px; 
+	font-weight : bold;
+	color : #294C50;
+	font-size : 13pt;
+	font-family : Verdana, serif; 
+	line-height : 25px; 
+	vertical-align : middle; 
+	margin-top : 5px
+}
+
+
+.b1{
+	float : left;
+	margin-left : 30%;
+	margin-top : 30px;
+	border-right-style : solid;
+	border-color: #638489;
+	border-width: 10px;
+	border-width: 4;
+	border-bottom-style: solid;
+	height : 100px;
+	width : 100px;
+}
+
+.b2{
+	float : left;
+	margin-top : 30px;
+	border-left-style : solid;
+	border-right-style : solid;
+	border-bottom-style : solid;
+	border-color: #638489;
+	border-width: 10px;
+	border-width: 4;
+	height : 100px;
+	width : 100px;
+}
+
+.b3{
+	float : left;
+	margin-top : 30px;
+	border-left-style : solid;
+	border-bottom-style : solid;
+	border-color: #638489;
+	border-width: 10px;
+	border-width: 4;
+	height : 100px;
+	width : 100px;
+}
+
+.b4{
+	clear : both;
+	float : left;
+	margin-left : 30%;
+	border-top-style : solid;
+	border-right-style : solid;
+	border-bottom-style : solid;
+	border-color: #638489;
+	border-width: 10px;
+	border-width: 4;
+	height : 100px;
+	width : 100px;
+}
+
+.b5{
+	float : left;
+	border-style : solid;
+	border-color: #638489;
+	border-width: 10px;
+	border-width: 4;
+	height : 100px;
+	width : 100px;
+}
+
+.b6{
+	float : left;
+	border-left-style : solid;
+	border-top-style : solid;
+	border-color: #638489;
+	border-width: 10px;
+	border-width: 4;
+	border-bottom-style : solid;
+	height : 100px;
+	width : 100px;
+}
+
+.b7{
+	clear : both;
+	float : left;
+	margin-left : 30%;
+	border-top-style : solid;
+	border-right-style : solid;
+	border-color: #638489;
+	border-width: 10px;
+	border-width: 4;
+	height : 100px;
+	width : 100px;
+}
+
+.b8{
+	float : left;
+	border-left-style : solid;
+	border-top-style : solid;
+	border-right-style : solid;
+	border-color: #638489;
+	border-width: 10px;
+	border-width: 4;
+	height : 100px;
+	width : 100px;
+}
+
+.b9{
+	float : left;
+	border-left-style : solid;
+	border-top-style : solid;
+	border-color: #638489;
+	border-width: 10px;
+	border-width: 4;
+	height : 100px;
+	width : 100px;
+}
+
+.x{
+	float : right;
+	margin-right : 10px;
+	margin-top : 5px;
+}
+
+.plus{
+	float : right;
+	margin-right : 10px;
+	margin-top : 4px;
+}
+
+.activearrow{
+	height : 19px;
+	width : 13px;
+	margin-right : 10px;
+	vertical-align : top;
+	margin-top : 3px;
+}
+
+.hidearrow{
+	position : relative;
+	/*margin-top : -101px;
+	margin-left: 2px;*/
+}
+
+.extendarrow{
+	margin-left: 425px;
+	margin-top: -30px;
+	float: right;
+}

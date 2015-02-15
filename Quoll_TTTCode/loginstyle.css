@@ -1,0 +1,103 @@
+body{
+	overflow : hidden;
+}
+
+.welcomeBanner{
+	margin-top : 100px;
+	height : 200;
+	width : 100%;
+	background-color: #B1C9CB;
+}
+
+.tttWelcome{
+	line-height : 150px;
+	font-family : Verdana, serif;
+	font-size : 68pt;
+	font-weight : bold;
+	text-align : center;
+	color : #294C50;
+}
+
+.tttaftertxt{
+	line-height : 0px;
+	font-family : Verdana, serif;
+	font-size : 22pt;
+	font-weight : bold;
+	text-align : center;
+	color : #294C50;
+}
+
+.username{
+    text-indent : 8px;
+	margin-top : 50px;
+	height : 26px;
+	width : 650px;
+	font-family : Verdana, serif;
+	font-size : 18pt;
+	font-weight : bold;
+	background-color : #D3D3D3;
+	line-height : 36px;
+	text-align : left;
+	border-style : none;
+	color : #294C50;
+}
+
+.password{
+	margin-top : 10px;
+	height : 26px;
+	width : 650px;
+	font-family : Verdana, serif;
+	font-size : 18pt;
+	font-weight : bold;
+	background-color : #9B9B9B;
+	line-height : 36px;
+	text-align : left;
+	border-style : none;
+	color : #294C50;
+}
+
+input{
+	border-style : none;
+	height : 40px;
+	vertical-align : middle;
+	width : 450;	
+	margin-left : 20px;
+	font-family : Verdana, serif;
+	font-size : 12pt;
+	font-weight : bold;
+	text-transform : uppercase;
+	background-color : inherit;
+	color : #294C50;
+	
+}
+
+.loginregister{
+	margin-top : 10px;
+	height : 40px;
+	width : 650px;
+	font-family : Verdana, serif;
+	font-size : 18pt;
+	font-weight : bold;
+	line-height : 40px;
+	color : #294C50;
+}
+
+.loginbutton{
+	float : left;
+	text-align : left;
+	color : #294C50;
+	font-family : Verdana, serif;
+	font-size : 18pt;
+	font-weight : bold;
+	width : 140px;
+}
+
+.registrationbutton{
+	float : right;
+	margin-right : 10px;
+	color : #294C50;	
+	font-family : Verdana, serif;
+	font-size : 18pt;
+	font-weight : bold;
+	text-decoration : none;
+}

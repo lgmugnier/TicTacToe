@@ -1,0 +1,67 @@
+
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<link rel="stylesheet" type="text/css" href="indexstyle.css"/>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="sideBar.js"></script>
+		<script type="text/javascript" src="menuBar.js"></script>
+		<script type="text/javascript" src="ai.js"></script>
+		<script type="text/javascript" src="statpage.js"></script>
+		<script type="text/javascript" src="tttboard.js"></script>		
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	</head>
+	
+	<body>
+		<div id = "gameContainer">
+			<div id = "menuBar"></div>
+			<div id = "playerBoard">
+				<div id = "gameTypeBanner"></div>
+				<div id = "playerBanners">
+					<div id = "player1Banner">
+						<div id = "player1_X_O"></div>
+						<div id = "player1name"></div>
+						<div><pre id = "player1stats"></pre></div>
+						<img class = "extendarrow">
+						<div><pre id = "player1statsPageName"></pre></div>
+						<div><pre id = "player1statsPage"></pre></div>
+						<div><pre id = "player1statsPage2"></pre></div>
+						<div><pre id = "player1statsPageRank"></pre></div>
+					</div>
+					<div id = "player2Banner">
+						<div id = "player2_X_O"></div>
+						<div id = "player2name"></div>
+						<div><pre id = "player2stats"></pre></div>
+					</div>
+				</div>
+				<div id = "player1scoreBanner"></div>
+				<div id = "player2scoreBanner"></div>
+				<div id="gameboard">
+					<div class="box b1" data-occupied = "false"></div>
+					<div class="box b2" data-occupied = "false"></div>
+					<div class="box b3" data-occupied = "false"></div>
+					<div class="box b4" data-occupied = "false"></div>
+					<div class="box b5" data-occupied = "false"></div>
+					<div class="box b6" data-occupied = "false"></div>
+					<div class="box b7" data-occupied = "false"></div>
+					<div class="box b8" data-occupied = "false"></div>
+					<div class="box b9" data-occupied = "false"></div>
+				</div>
+			</div>
+			<div id = "sideBar">
+				<div id = "friendsBanner">FRIENDS</div>
+				<form id = "addFriendForm">
+				<input type="text" placeholder = "Add to Friends List..." id="searchFriend" name="friend"/> 
+				<input type="submit" style = "visibility : hidden;"/>
+				</form>
+				<div id = "friendsList"></div>
+				<div id = "leaderboardBanner">LEADERBOARD</div>
+				<div id = "leaderboard"></div>
+			</div>
+		</div>
+	</body>
+
+</html>
